@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """J49 emulator: the screen program of the thermostat on a PC, in the browser.
 
-It runs the real `j49-screen` (a PC build of tools/j49-screen from the nest-yocto repository)
+It runs the real `j49-screen` (a PC build of tools/j49-screen from the nest-v2-firmware repository)
 with a file as its frame buffer and two pipes as the ring, and serves a page that shows the
 round screen. Mouse wheel = turn the ring, click = press it. The thermostat behind it is
 simulated by j49-screen itself (J49_DEMO=live): a room of 19.4 degrees and a heating that
