@@ -23,7 +23,7 @@ Linux, Python 3 (standard library only) and a Rust toolchain for the one-time bu
 With the Nix shell of nest-v2-firmware the binary is in
 `target/x86_64-unknown-linux-gnu/release/j49-screen`.
 
-Options: `--port 8050`, `--lang en|nl`, `--theme default|home-assistant|light`. Language and
+Options: `--port 8050`, `--lang en|nl`, `--theme default|home-assistant|home-assistant-light|light`. Language and
 theme can also be changed on the page, and in the Settings of the emulated thermostat.
 
 Your own language or theme: `j49-screen` reads `/var/lib/j49/lang/<code>.txt` and
